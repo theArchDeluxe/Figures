@@ -12,17 +12,23 @@
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Figures" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="j3w-Jj-wFA">
-                                <rect key="frame" x="16" y="132" width="361" height="268"/>
+                                <rect key="frame" x="16" y="79" width="361" height="361"/>
                                 <color key="backgroundColor" red="0.1342372" green="0.32107093930000002" blue="0.5957788825" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="j3w-Jj-wFA" secondAttribute="height" multiplier="1:1" id="nag-hY-pbd"/>
+                                </constraints>
                             </view>
                             <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nnV-dX-8dp">
-                                <rect key="frame" x="16" y="479" width="361" height="279"/>
+                                <rect key="frame" x="16" y="460" width="361" height="338"/>
                                 <color key="backgroundColor" red="0.89012825490000003" green="0.65622884039999996" blue="0.5257078409" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="nnV-dX-8dp" secondAttribute="height" multiplier="1:1" id="VdN-Yw-Pn2"/>
+                                </constraints>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
